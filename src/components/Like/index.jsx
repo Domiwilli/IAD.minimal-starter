@@ -7,7 +7,7 @@ const Like = ({ start }) => {
   return (
     <div className="like">
       <button className="like__btn" onClick={() => setCount(count + 1)}>
-        {count} – Click me
+        {count} – Like
       </button>
     </div>
   );
